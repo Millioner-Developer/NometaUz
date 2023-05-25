@@ -18,7 +18,7 @@ html {
 
 body {
     font-size: 16px;
-    color: #333;
+    color: #222;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -26,16 +26,13 @@ body {
     width: 5px;
 }
 
-/* ::-webkit-scrollbar-track {
-} */
-
 ::-webkit-scrollbar-thumb {
-    background: #333;
+    background: #222;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #444;
+    background: rgba(34, 34, 34, 0.8);
 }
 
 .container {
@@ -206,7 +203,7 @@ footer a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(33, 33, 33, 0.9);
+    background-color: #222;
 }
 
 .footer__title {
@@ -218,6 +215,10 @@ footer a {
     color: #fff;
     transition: 0.4s;
     text-decoration: none;
+}
+
+.footer__content i {
+    --fa-animation-duration: 2s;
 }
 
 .footer__content:hover {
